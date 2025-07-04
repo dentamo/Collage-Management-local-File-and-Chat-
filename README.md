@@ -1,33 +1,82 @@
-# 📘 College Registrar, Local File Sharing, and Chat
+# 📘 College Registrar, Local File Sharing & Chat System
 
-The **College Registrar** manages official academic records and registration processes. For efficient collaboration, the **Local File Sharing** system enables users to exchange files securely over the campus network. These operations are supported by a **Chat** tool that facilitates instant digital communication for planning and discussion.
+An integrated platform designed for higher education institutions to **streamline academic registration**, **facilitate internal file exchange**, and **enable instant communication** among faculty and administrative staff. This system enhances operational efficiency and supports real-time collaboration within the campus network.
 
 ---
 
-## 🛠️ Technologies Used
+## 🔧 Tech Stack
 
 - **Frontend:** React, Tailwind CSS  
 - **Backend:** Node.js  
 
 ---
 
-## ✨ Key Features
+## 🌟 Core Features
 
-- **Comprehensive Registrar Management** – Handles student and admin registration, academic record keeping, and department-level operations.
-- **Professional Staff Integration** – Seamless incorporation of faculty and admin users into the system with defined roles and permissions.
-- **Smart File Sharing** – Enables secure, local network-based file exchange between staff and departments, optimized for performance and privacy.
-- **Instant Messaging (Chat)** – Real-time communication tool for faculty and administrators to coordinate tasks, share updates, and discuss academic matters.
+✅ **Registrar Management System**  
+Manage student and admin records, registration workflows, and academic data with accuracy and control.
+
+✅ **Role-Based Admin Access**  
+Support for multiple user roles including registrar staff, faculty, and IT admins with secured authentication and permissions.
+
+✅ **Local File Sharing**  
+Fast and secure peer-to-peer file sharing over the local campus network—no internet required.
+
+✅ **Integrated Chat System**  
+Real-time messaging for announcements, task coordination, and team discussions.
+
+✅ **User-Friendly Dashboard**  
+Modern, responsive interface showing key academic metrics, trends, and activities at a glance.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js and npm installed
+### ✅ Prerequisites
+- Node.js & npm must be installed on your system
 
-### Installation
+### 📦 Installation Steps
 
-1. **Clone the repository**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/Ersamodentamo/your-repo-name.git
    cd your-repo-name
+   ```
+
+2. **Start the Backend**
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
+
+3. **Start the Frontend**
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+---
+
+## 📸 Screenshot Preview
+
+### 🧑‍💼 Admin Dashboard  
+Visualizing key stats like student population, active courses, attendance rate, average grade, and academic performance trend.
+
+![Admin Dashboard](./assets/screenshot-dashboard.png)
+
+---
+
+## 👨‍💻 Author
+
+**Ersamo Dentamo**  
+📧 [dentamoersamo@gmail.com](mailto:dentamoersamo@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/Dentamo-ersamo)  
+💻 [GitHub](https://github.com/Ersamodentamo)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
